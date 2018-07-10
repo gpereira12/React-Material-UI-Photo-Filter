@@ -41,7 +41,7 @@ class ImagesResults extends Component {
                     </span>
                 }
                   actionIcon={
-                    <IconButton color='secondary' onClick={() => this.handleOpen(img.largeImageURL)}>
+                    <IconButton style={{ color: '#FFF' }} onClick={() => this.handleOpen(img.largeImageURL)}>
                       <ZoomIn  />
                     </IconButton>
                   } 
